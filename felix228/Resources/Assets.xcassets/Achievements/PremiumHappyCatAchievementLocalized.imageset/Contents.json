@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "premium-happy-cat-achievement-localized.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

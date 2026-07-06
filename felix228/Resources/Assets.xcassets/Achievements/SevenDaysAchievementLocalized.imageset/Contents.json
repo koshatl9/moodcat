@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "seven-days-achievement-localized.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

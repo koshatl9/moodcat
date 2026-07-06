@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "kitty-slime-so-so.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

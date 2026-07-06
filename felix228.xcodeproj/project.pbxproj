@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65F339002FB31FDA001FF77D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 65F339202FB31FDA001FF77D /* FirebaseAuth */; };
+		65F339012FB31FDA001FF77D /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 65F339212FB31FDA001FF77D /* FirebaseCore */; };
+		65F339022FB31FDA001FF77D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 65F339222FB31FDA001FF77D /* FirebaseFirestore */; };
+		65F339032FB31FDA001FF77D /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 65F339232FB31FDA001FF77D /* GoogleSignIn */; };
+		65F33A002FB3400001FF77D /* FelixIslandExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 65F33A022FB3400001FF77D /* FelixIslandExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65F338CC2FB31FDA001FF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65F338B42FB31FD9001FF77D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65F338BB2FB31FD9001FF77D;
+			remoteInfo = felix228;
+		};
+		65F338D62FB31FDA001FF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65F338B42FB31FD9001FF77D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65F338BB2FB31FD9001FF77D;
+			remoteInfo = felix228;
+		};
+		65F33A012FB3400001FF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65F338B42FB31FD9001FF77D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65F33A072FB3400001FF77D;
+			remoteInfo = FelixIslandExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		65F33A052FB3400001FF77D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				65F33A002FB3400001FF77D /* FelixIslandExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		65F338BC2FB31FD9001FF77D /* felix228.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = felix228.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F338CB2FB31FDA001FF77D /* felix228Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = felix228Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F338D52FB31FDA001FF77D /* felix228UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = felix228UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F33A022FB3400001FF77D /* FelixIslandExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FelixIslandExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		65F338BE2FB31FD9001FF77D /* felix228 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = felix228;
+			sourceTree = "<group>";
+		};
+		65F338CE2FB31FDA001FF77D /* felix228Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = felix228Tests;
+			sourceTree = "<group>";
+		};
+		65F338D82FB31FDA001FF77D /* felix228UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = felix228UITests;
+			sourceTree = "<group>";
+		};
+		65F33A032FB3400001FF77D /* FelixShared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FelixShared;
+			sourceTree = "<group>";
+		};
+		65F33A042FB3400001FF77D /* FelixIslandExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FelixIslandExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65F338B92FB31FD9001FF77D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F339002FB31FDA001FF77D /* FirebaseAuth in Frameworks */,
+				65F339012FB31FDA001FF77D /* FirebaseCore in Frameworks */,
+				65F339022FB31FDA001FF77D /* FirebaseFirestore in Frameworks */,
+				65F339032FB31FDA001FF77D /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F338C82FB31FDA001FF77D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F338D22FB31FDA001FF77D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F33A062FB3400001FF77D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65F338B32FB31FD9001FF77D = {
+			isa = PBXGroup;
+			children = (
+				65F338BE2FB31FD9001FF77D /* felix228 */,
+				65F338CE2FB31FDA001FF77D /* felix228Tests */,
+				65F338D82FB31FDA001FF77D /* felix228UITests */,
+				65F33A032FB3400001FF77D /* FelixShared */,
+				65F33A042FB3400001FF77D /* FelixIslandExtension */,
+				65F338BD2FB31FD9001FF77D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65F338BD2FB31FD9001FF77D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65F338BC2FB31FD9001FF77D /* felix228.app */,
+				65F338CB2FB31FDA001FF77D /* felix228Tests.xctest */,
+				65F338D52FB31FDA001FF77D /* felix228UITests.xctest */,
+				65F33A022FB3400001FF77D /* FelixIslandExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65F338BB2FB31FD9001FF77D /* felix228 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F338DF2FB31FDA001FF77D /* Build configuration list for PBXNativeTarget "felix228" */;
+			buildPhases = (
+				65F338B82FB31FD9001FF77D /* Sources */,
+				65F338B92FB31FD9001FF77D /* Frameworks */,
+				65F338BA2FB31FD9001FF77D /* Resources */,
+				65F33A052FB3400001FF77D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65F33A0A2FB3400001FF77D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				65F338BE2FB31FD9001FF77D /* felix228 */,
+				65F33A032FB3400001FF77D /* FelixShared */,
+			);
+			name = felix228;
+			packageProductDependencies = (
+				65F339202FB31FDA001FF77D /* FirebaseAuth */,
+				65F339212FB31FDA001FF77D /* FirebaseCore */,
+				65F339222FB31FDA001FF77D /* FirebaseFirestore */,
+				65F339232FB31FDA001FF77D /* GoogleSignIn */,
+			);
+			productName = felix228;
+			productReference = 65F338BC2FB31FD9001FF77D /* felix228.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65F338CA2FB31FDA001FF77D /* felix228Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F338E22FB31FDA001FF77D /* Build configuration list for PBXNativeTarget "felix228Tests" */;
+			buildPhases = (
+				65F338C72FB31FDA001FF77D /* Sources */,
+				65F338C82FB31FDA001FF77D /* Frameworks */,
+				65F338C92FB31FDA001FF77D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65F338CD2FB31FDA001FF77D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				65F338CE2FB31FDA001FF77D /* felix228Tests */,
+			);
+			name = felix228Tests;
+			packageProductDependencies = (
+			);
+			productName = felix228Tests;
+			productReference = 65F338CB2FB31FDA001FF77D /* felix228Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65F338D42FB31FDA001FF77D /* felix228UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F338E52FB31FDA001FF77D /* Build configuration list for PBXNativeTarget "felix228UITests" */;
+			buildPhases = (
+				65F338D12FB31FDA001FF77D /* Sources */,
+				65F338D22FB31FDA001FF77D /* Frameworks */,
+				65F338D32FB31FDA001FF77D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65F338D72FB31FDA001FF77D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				65F338D82FB31FDA001FF77D /* felix228UITests */,
+			);
+			name = felix228UITests;
+			packageProductDependencies = (
+			);
+			productName = felix228UITests;
+			productReference = 65F338D52FB31FDA001FF77D /* felix228UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		65F33A072FB3400001FF77D /* FelixIslandExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F33A0D2FB3400001FF77D /* Build configuration list for PBXNativeTarget "FelixIslandExtension" */;
+			buildPhases = (
+				65F33A092FB3400001FF77D /* Sources */,
+				65F33A062FB3400001FF77D /* Frameworks */,
+				65F33A082FB3400001FF77D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				65F33A032FB3400001FF77D /* FelixShared */,
+				65F33A042FB3400001FF77D /* FelixIslandExtension */,
+			);
+			name = FelixIslandExtension;
+			packageProductDependencies = (
+			);
+			productName = FelixIslandExtension;
+			productReference = 65F33A022FB3400001FF77D /* FelixIslandExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65F338B42FB31FD9001FF77D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					65F338BB2FB31FD9001FF77D = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					65F338CA2FB31FDA001FF77D = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = 65F338BB2FB31FD9001FF77D;
+					};
+					65F338D42FB31FDA001FF77D = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = 65F338BB2FB31FD9001FF77D;
+					};
+					65F33A072FB3400001FF77D = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = 65F338B72FB31FD9001FF77D /* Build configuration list for PBXProject "felix228" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65F338B32FB31FD9001FF77D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				65F339102FB31FDA001FF77D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				65F339112FB31FDA001FF77D /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 65F338BD2FB31FD9001FF77D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65F338BB2FB31FD9001FF77D /* felix228 */,
+				65F338CA2FB31FDA001FF77D /* felix228Tests */,
+				65F338D42FB31FDA001FF77D /* felix228UITests */,
+				65F33A072FB3400001FF77D /* FelixIslandExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65F338BA2FB31FD9001FF77D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F338C92FB31FDA001FF77D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F338D32FB31FDA001FF77D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F33A082FB3400001FF77D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65F338B82FB31FD9001FF77D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F338C72FB31FDA001FF77D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F338D12FB31FDA001FF77D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F33A092FB3400001FF77D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65F338CD2FB31FDA001FF77D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65F338BB2FB31FD9001FF77D /* felix228 */;
+			targetProxy = 65F338CC2FB31FDA001FF77D /* PBXContainerItemProxy */;
+		};
+		65F338D72FB31FDA001FF77D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65F338BB2FB31FD9001FF77D /* felix228 */;
+			targetProxy = 65F338D62FB31FDA001FF77D /* PBXContainerItemProxy */;
+		};
+		65F33A0A2FB3400001FF77D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65F33A072FB3400001FF77D /* FelixIslandExtension */;
+			targetProxy = 65F33A012FB3400001FF77D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		65F338DD2FB31FDA001FF77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65F338DE2FB31FDA001FF77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65F338E02FB31FDA001FF77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BZYYQ75BT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AppInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toelagm.felix228;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65F338E12FB31FDA001FF77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BZYYQ75BT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AppInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toelagm.felix228;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65F338E32FB31FDA001FF77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dasha.catdiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/felix228.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/felix228";
+			};
+			name = Debug;
+		};
+		65F338E42FB31FDA001FF77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dasha.catdiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/felix228.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/felix228";
+			};
+			name = Release;
+		};
+		65F338E62FB31FDA001FF77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BZYYQ75BT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dasha.catdiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = felix228;
+			};
+			name = Debug;
+		};
+		65F338E72FB31FDA001FF77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BZYYQ75BT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dasha.catdiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = felix228;
+			};
+			name = Release;
+		};
+		65F33A0B2FB3400001FF77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BZYYQ75BT;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FelixIslandExtensionInfo.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toelagm.felix228.FelixIslandExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65F33A0C2FB3400001FF77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BZYYQ75BT;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FelixIslandExtensionInfo.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toelagm.felix228.FelixIslandExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65F338B72FB31FD9001FF77D /* Build configuration list for PBXProject "felix228" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F338DD2FB31FDA001FF77D /* Debug */,
+				65F338DE2FB31FDA001FF77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F338DF2FB31FDA001FF77D /* Build configuration list for PBXNativeTarget "felix228" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F338E02FB31FDA001FF77D /* Debug */,
+				65F338E12FB31FDA001FF77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F338E22FB31FDA001FF77D /* Build configuration list for PBXNativeTarget "felix228Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F338E32FB31FDA001FF77D /* Debug */,
+				65F338E42FB31FDA001FF77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F338E52FB31FDA001FF77D /* Build configuration list for PBXNativeTarget "felix228UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F338E62FB31FDA001FF77D /* Debug */,
+				65F338E72FB31FDA001FF77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F33A0D2FB3400001FF77D /* Build configuration list for PBXNativeTarget "FelixIslandExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F33A0B2FB3400001FF77D /* Debug */,
+				65F33A0C2FB3400001FF77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		65F339102FB31FDA001FF77D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+		65F339112FB31FDA001FF77D /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		65F339202FB31FDA001FF77D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65F339102FB31FDA001FF77D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		65F339212FB31FDA001FF77D /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65F339102FB31FDA001FF77D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		65F339222FB31FDA001FF77D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65F339102FB31FDA001FF77D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		65F339232FB31FDA001FF77D /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65F339112FB31FDA001FF77D /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 65F338B42FB31FD9001FF77D /* Project object */;
+}

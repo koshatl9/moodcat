@@ -1,0 +1,80 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [ ]
+  },
+  "identifier" : "79A8448B-4C84-4D2A-B12B-3E5E85D90FA2",
+  "nonRenewingSubscriptions" : [ ],
+  "products" : [ ],
+  "settings" : {
+    "_applicationInternalID" : "FelixPremium",
+    "_developerTeamID" : "9BZYYQ75BT",
+    "_disableDialogs" : false,
+    "_failTransactionsEnabled" : false,
+    "_locale" : "ru_RU",
+    "_storeKitErrors" : [ ],
+    "_storefront" : "USA",
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "7D5D1D6C-5F7C-4D52-9DAB-1CC3F7D7D0B4",
+      "localizations" : [
+        {
+          "description" : "Полный доступ ко всем темам, стикерам и premium-возможностям Felix.",
+          "displayName" : "Felix Premium",
+          "locale" : "ru_RU"
+        }
+      ],
+      "name" : "Felix Premium",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [ ],
+          "codeOffers" : [ ],
+          "displayPrice" : "199,00 ₽",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "felix-premium-monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Открывает весь дневник, закрытые темы и будущие premium-обновления на месяц.",
+              "displayName" : "Felix Premium Monthly",
+              "locale" : "ru_RU"
+            }
+          ],
+          "productID" : "com.toelagm.felix228.premium.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Felix Premium Monthly",
+          "subscriptionGroupID" : "7D5D1D6C-5F7C-4D52-9DAB-1CC3F7D7D0B4",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [ ],
+          "codeOffers" : [ ],
+          "displayPrice" : "1490,00 ₽",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "felix-premium-yearly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Открывает весь дневник, закрытые темы и будущие premium-возможности сразу на год.",
+              "displayName" : "Felix Premium Yearly",
+              "locale" : "ru_RU"
+            }
+          ],
+          "productID" : "com.toelagm.felix228.premium.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Felix Premium Yearly",
+          "subscriptionGroupID" : "7D5D1D6C-5F7C-4D52-9DAB-1CC3F7D7D0B4",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}
