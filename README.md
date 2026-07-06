@@ -4,14 +4,6 @@ Felix is a cozy iOS emotion diary built with `SwiftUI`. The app helps users trac
 
 This project was built as a portfolio app and as a real product prototype, so it mixes UI polish, local persistence, premium flows, personalization, and cloud-ready architecture.
 
-## Screenshots
-
-<p align="center">
-  <img src="docs/screenshots/records-screen.svg" alt="Felix records screen" width="30%">
-  <img src="docs/screenshots/statistics-screen.svg" alt="Felix statistics screen" width="30%">
-  <img src="docs/screenshots/calendar-screen.svg" alt="Felix calendar screen" width="30%">
-</p>
-
 ## Highlights
 
 - Mood journal with quick daily check-ins
